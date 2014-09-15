@@ -80,7 +80,8 @@
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Name>${project.artifactId}</Bundle-Name>
-                        <Export-Package>org.wso2.carbon.utility.jenkins.*;version=1.0.1,</Export-Package>
+                        <Export-Package>org.wso2.carbon.utility.jenkins.*;version=1.0.1,
+                        </Export-Package>
                         <DynamicImport-Package>*</DynamicImport-Package>
                     </instructions>
                 </configuration>
